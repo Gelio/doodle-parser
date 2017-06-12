@@ -1,6 +1,6 @@
 {
   "name": "doodle-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parses Doodle polls and returns the results",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
