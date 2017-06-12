@@ -7,6 +7,10 @@ export function parsePollData(pollData: PollData): Poll {
   const options: Option[] = [];
   const participants: Participant[] = [];
 
+  if (!pollData || !pollData.participants || !pollData.optionsText) {
+    throw new Error('Invalid PollData');
+  }
+
   for (let optionText of pollData.optionsText) {
     options.push(new Option(optionText));
   }
