@@ -2,7 +2,8 @@
   "name": "doodle-parser",
   "version": "1.0.0",
   "description": "Parses Doodle polls and returns the results",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/Gelio/doodle-parser#readme",
   "devDependencies": {
     "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "node-fetch": "^1.7.1"
   }
 }
