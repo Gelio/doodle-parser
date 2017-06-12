@@ -1,0 +1,19 @@
+{
+  "name": "doodle-parser",
+  "version": "1.0.0",
+  "description": "Parses Doodle polls and returns the results",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gelio/doodle-parser.git"
+  },
+  "author": "Grzegorz Rozdzialik <voreny.gelio@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gelio/doodle-parser/issues"
+  },
+  "homepage": "https://github.com/Gelio/doodle-parser#readme"
+}
